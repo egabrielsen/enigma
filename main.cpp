@@ -7,6 +7,7 @@
 //
 
 #include <iostream>
+#include <string>
 #include <fstream>
 #include <vector>
 #include <ostream>
@@ -101,16 +102,21 @@ int main(int argc, const char * argv[]) {
           cin >> enigmaKey;
           if (validKey(enigmaKey)) {
             Enigma* enigmaCipher = new Enigma(enigmaKey);
-            cout << "Enter Content:" << endl;
-            string content;
-            getline(cin, content);
-            cin.ignore();
-            cout << content << " ---> ";
-            for (int i = 0; i < content.length(); i++) {
-                char temp = toupper(content[i]);
-                cout << enigmaCipher->cipher(temp);
+            bool encrypting = true;
+            while(encrypting) {
+                string content;
+                cout << " >> ";
+                cin >> content;
+                if (content == "exit") {
+                    encrypting = false;
+                }
+                cout << "  " << content << " ---> ";
+                for (int i = 0; i < content.length(); i++) {
+                    char temp = toupper(content[i]);
+                    cout << enigmaCipher->cipher(temp);
+                }
+                cout << endl;
             }
-            cout << endl;
           }
         } else if (select == "e") {
           cout << "Please Enter the Enigma Key >> ";
@@ -118,10 +124,21 @@ int main(int argc, const char * argv[]) {
           cin >> enigmaKey;
           if (validKey(enigmaKey)) {
             Enigma* enigmaCipher = new Enigma(enigmaKey);
-            cout << "Enter Content >> ";
-            string content;
-            cin >> content;
-            cout << content[0];
+            bool deciphering = true;
+            while(deciphering) {
+                string content;
+                cout << " >> ";
+                cin >> content;
+                if (content == "exit") {
+                    deciphering = false;
+                }
+                cout << "  " << content << " ---> ";
+                for (int i = 0; i < content.length(); i++) {
+                    char temp = toupper(content[i]);
+                    cout << enigmaCipher->encrypt(temp);
+                }
+                cout << endl;
+            }
           }
         } else if (select == "exit") {
             shell = false;
