@@ -14,6 +14,6 @@ Encripting a file:<br>
   follow the steps that follow to encript. You must specify a key to encript the file. This will be the enigma key that is used to cipher the encription
   
 decipher a file: <br>
-  -> You must know the 3 capital letter enigma code in order to decipher text.<br>
+  <li> You must know the 3 capital letter enigma code in order to decipher text.</li>
   <code> ./a.out \<file to decipher\> </code> <br>
-  -> then follow the steps to decipher
+  <li> then follow the steps to decipher </li>
