@@ -104,15 +104,15 @@ int main(int argc, const char * argv[]) {
             Enigma* enigmaCipher = new Enigma(enigmaKey);
             bool encrypting = true;
             while(encrypting) {
-                string content;
                 cout << " >> ";
-                cin >> content;
-                if (content == "exit") {
+                string t;
+                getline(cin, t);
+                if (t == "exit") {
                     encrypting = false;
                 }
-                cout << "  " << content << " ---> ";
-                for (int i = 0; i < content.length(); i++) {
-                    char temp = toupper(content[i]);
+                cout << "  " << t << " ---> ";
+                for (int i = 0; i < t.length(); i++) {
+                    char temp = toupper(t[i]);
                     cout << enigmaCipher->cipher(temp);
                 }
                 cout << endl;
@@ -126,15 +126,15 @@ int main(int argc, const char * argv[]) {
             Enigma* enigmaCipher = new Enigma(enigmaKey);
             bool deciphering = true;
             while(deciphering) {
-                string content;
                 cout << " >> ";
-                cin >> content;
-                if (content == "exit") {
+                string t;
+                getline(cin, t);
+                if (t == "exit") {
                     deciphering = false;
                 }
-                cout << "  " << content << " ---> ";
-                for (int i = 0; i < content.length(); i++) {
-                    char temp = toupper(content[i]);
+                cout << "  " << t << " ---> ";
+                for (int i = 0; i < t.length(); i++) {
+                    char temp = toupper(t[i]);
                     cout << enigmaCipher->encrypt(temp);
                 }
                 cout << endl;
