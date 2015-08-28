@@ -3,7 +3,7 @@ A c++ program that encrypts text files by using 3 "rotors" modeled after Alan Tu
 
 #How to use
 Compile with g++ or gcc 
-  <h1>g++ *.cpp</h1>
+  <p>g++ *.cpp</p>
   
 Open a shell:
   Just run ./a.out to open an interactive shell
