@@ -10,7 +10,7 @@ Open a shell: <br>
   Type <code> exit </code> to exit
   
 Encripting a file:<br>
-  <code> ./a.out \<file name to encript\> </code> <br>
+  <code> ./a.out \<file to encript\> </code> <br>
   follow the steps that follow to encript. You must specify a key to encript the file. This will be the enigma key that is used to cipher the encription
   
 decipher a file: <br>
