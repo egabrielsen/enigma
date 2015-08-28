@@ -10,10 +10,10 @@ Open a shell:
   Type exit to exit
   
 Encripting a file: 
-  ./a.out <file name to encript>
+  ./a.out \<file name to encript\>
   -> then follow the steps that follow to encript. You must specify a key to encript the file. This will be the enigma key that is used to cipher the encription
   
 decipher a file: 
   -> You must know the 3 capital letter enigma code in order to decipher text. 
-  ./a.out <file to decipher>
+  ./a.out \<file to decipher\>
   -> then follow the steps to decipher
