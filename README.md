@@ -6,8 +6,8 @@ Compile with g++ or gcc <br>
   <code>g++ *.cpp</code>
   
 Open a shell: <br>
-  Just run <code> ./a.out </code> to open an interactive shell <br>
-  Type <code> exit </code> to exit
+  <li> Run <code> ./a.out </code> to open an interactive shell </li>
+  <li> Type <code> exit </code> to exit </li>
   
 Encripting a file:<br>
   <li> Run <code> ./a.out \<file to encript\> </code> </li>
