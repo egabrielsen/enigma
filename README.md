@@ -11,9 +11,9 @@ Open a shell: <br>
   
 Encripting a file:<br>
   <code> ./a.out \<file to encript\> </code> <br>
-  follow the steps that follow to encript. You must specify a key to encript the file. This will be the enigma key that is used to cipher the encription
+  <li> Follow the steps that follow to encript. You must specify a key to encript the file. This will be the enigma key that is used to cipher the encription </li>
   
-decipher a file: <br>
+Decipher a file: <br>
   <li> You must know the 3 capital letter enigma code in order to decipher text.</li>
-  <code> ./a.out \<file to decipher\> </code> <br>
-  <li> then follow the steps to decipher </li>
+  <li> Run <code> ./a.out \<file to decipher\> </code> </li>
+  <li> Follow the steps to decipher </li>
