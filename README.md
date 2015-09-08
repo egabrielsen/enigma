@@ -2,7 +2,7 @@
 A c++ program that encrypts text files by using 3 "rotors" modeled after Alan Turing's Enigma machine used in WWII
 
 #How to use
-<li> Compile using Makefile</li>
+Compile using Makefile
 <li> Run <code>make</code> </li>
 To clean up output files and executable
 <li> Run <code>make clean</code></li>
