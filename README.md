@@ -1,5 +1,5 @@
 # Enigma
-A c++ program that encrypts text files by using 3 "rotors" modeled after Alan Turing's Enigma machine used in WWII
+A c++ program that encrypts text files by using 3 "rotors" modeled after Alan Turing's Enigma machine used in WWII. Need to update to use with lower case letters, numbers, and punctuation for better encryption.
 
 #How to use
 Compile using Makefile
