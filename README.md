@@ -4,8 +4,8 @@ A c++ program that encrypts text files by using 3 "rotors" modeled after Alan Tu
 #How to use
 <li> Compile using Makefile</li>
 <li> Run <code>make</code> </li>
-<li> To clean up output files and executable </li>
-<li> Tun <code>make clean</code></li>
+To clean up output files and executable
+<li> Run <code>make clean</code></li>
 
 <h3> Open a shell: </h3>
   <li> Run <code> ./enigma.exe </code> to open an interactive shell </li>
